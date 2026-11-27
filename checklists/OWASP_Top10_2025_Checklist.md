@@ -12,9 +12,9 @@ Assessment Type: Authorized Security Testing
 | A02 | Security Misconfiguration | Not Tested |
 | A03 | Software Supply Chain Failures | Not Tested |
 | A04 | Cryptographic Failures | Not Tested |
-| A05 | Injection | 	Partially Tested - Evidence Review
+| A05 | Injection | Partially Tested - Evidence Review |
 | A06 | Insecure Design | Not Tested |
-| A07 | Authentication Failures | 	Partially Tested - Evidence Review
+| A07 | Authentication Failures | Partially Tested - Evidence Review |
 | A08 | Software or Data Integrity Failures | Not Tested |
 | A09 | Security Logging and Alerting Failures | Not Tested |
 | A10 | Mishandling of Exceptional Conditions | Not Tested |
