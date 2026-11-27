@@ -41,7 +41,9 @@ OWASP-Top10-Assessment/
 ├── evidence/
 │   ├── DVWA_Security_Testing_Evidence_Organized.pdf
 │   ├── SQL_Injection_Evidence.pdf
-│   └── Evidence_Register.md
+│   ├── Evidence_Register.md
+│   └── testing-logs/
+│       └── Testing_Log.md
 │
 ├── findings/
 │   └── Finding_Register.md
@@ -69,6 +71,7 @@ The project covers testing activities involving:
 - Session Management
 - Cross-Site Request Forgery (CSRF)
 - Brute Force Authentication Testing
+- CAPTCHA Configuration Testing
 
 Testing results and supporting evidence are maintained separately.
 

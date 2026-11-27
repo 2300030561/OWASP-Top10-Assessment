@@ -8,18 +8,17 @@ Local DVWA Application
 
 | ID | Finding | Test Result | Initial Severity | Status |
 |---|---|---|---|---|
-| F-01 | SQL Injection | Confirmed | High | Identified |
-| F-02 | Command Injection | Confirmed | High | Identified |
-| F-03 | Local File Inclusion | Confirmed | High | Identified |
-| F-04 | File Upload | Upload Accepted | To Be Reviewed | Observation |
-| F-05 | Reflected XSS | Tested | To Be Reviewed | Evidence Review |
-| F-06 | Stored XSS | Tested | To Be Reviewed | Evidence Review |
-| F-07 | DOM XSS | Tested | To Be Reviewed | Evidence Review |
-| F-08 | Weak Session IDs | Predictable Pattern Observed | Medium | Identified |
-| F-09 | CSRF | Password Change Tested | To Be Reviewed | Evidence Review |
-| F-10 | Brute Force | Failed and Successful Attempts | Medium | Identified |
-| F-11 | Insecure CAPTCHA | Testing Blocked by Missing API Key | N/A | Not Verified |
-
+| F-01 | SQL Injection | SQL query output observed | Pending Validation | Evidence Review |
+| F-02 | Command Injection | Command execution output observed | Pending Validation | Evidence Review |
+| F-03 | Local File Inclusion | File inclusion test captured | Pending Validation | Evidence Review |
+| F-04 | File Upload | Upload success message observed | Pending Validation | Observation |
+| F-05 | Reflected XSS | Input page captured | Pending Validation | Evidence Review |
+| F-06 | Stored XSS | JavaScript alert observed | Pending Validation | Evidence Review |
+| F-07 | DOM XSS | JavaScript alert observed | Pending Validation | Evidence Review |
+| F-08 | Weak Session IDs | Session cookie information captured | Pending Validation | Evidence Review |
+| F-09 | CSRF | Password change success message observed | Pending Validation | Evidence Review |
+| F-10 | Brute Force | Failed and successful login responses captured | Pending Validation | Evidence Review |
+| F-11 | Insecure CAPTCHA | Testing blocked by missing API configuration | N/A | Not Verified |
 ## Important Notes
 
 - Severity classifications are preliminary.

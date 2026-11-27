@@ -52,20 +52,18 @@ The following DVWA areas were included in the testing activity:
 Detailed results must be verified against the testing log and supporting evidence.
 
 ## 6. OWASP Top 10:2025 Coverage
-
 | ID | OWASP Category | Assessment Status |
 |---|---|---|
-| A01 | Broken Access Control | Not Fully Assessed |
-| A02 | Security Misconfiguration | Not Fully Assessed |
+| A01 | Broken Access Control | Not Tested |
+| A02 | Security Misconfiguration | Not Tested |
 | A03 | Software Supply Chain Failures | Not Tested |
-| A04 | Cryptographic Failures | Not Fully Assessed |
-| A05 | Injection | Tested - Evidence Review Required |
-| A06 | Insecure Design | Not Fully Assessed |
-| A07 | Authentication Failures | Partially Tested |
+| A04 | Cryptographic Failures | Not Tested |
+| A05 | Injection | Partially Tested - Evidence Review |
+| A06 | Insecure Design | Not Tested |
+| A07 | Authentication Failures | Partially Tested - Evidence Review |
 | A08 | Software or Data Integrity Failures | Not Tested |
 | A09 | Security Logging and Alerting Failures | Not Tested |
 | A10 | Mishandling of Exceptional Conditions | Not Tested |
-
 Note: DVWA testing does not automatically cover every OWASP category. Status must be updated only when the relevant assessment and evidence are complete.
 
 ## 7. Preliminary Findings
