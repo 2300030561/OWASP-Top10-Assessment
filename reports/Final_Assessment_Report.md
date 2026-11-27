@@ -111,7 +111,7 @@ Total Pages: 12
 
 - Evidence Register: `evidence/Evidence_Register.md`
 - Testing Log: `evidence/testing-logs/Testing_Log.md`
-- Supporting SQL Injection PDF: `evidence/SQL_Injection_Evidence.pdf`
+- Additional DVWA Evidence PDF: `evidence/DVWA_Security_Testing_Evidence_Additional.pdf`
 
 The master PDF contains screenshots covering SQL Injection, Command Injection, File Inclusion, File Upload, XSS, Session Management, CSRF, Brute Force, and CAPTCHA.
 

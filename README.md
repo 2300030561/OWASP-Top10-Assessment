@@ -19,11 +19,11 @@ It includes practical security testing, evidence collection, vulnerability docum
 
 ## Technologies & Tools
 
-- Python 3
 - Ubuntu Linux (WSL2)
 - Damn Vulnerable Web Application (DVWA)
-- Git and GitHub
-- Nmap
+- Web Browser
+- Git
+- GitHub
 
 ## Project Structure
 
@@ -40,7 +40,7 @@ OWASP-Top10-Assessment/
 │
 ├── evidence/
 │   ├── DVWA_Security_Testing_Evidence_Organized.pdf
-│   ├── SQL_Injection_Evidence.pdf
+│   ├── DVWA_Security_Testing_Evidence_Additional.pdf
 │   ├── Evidence_Register.md
 │   └── testing-logs/
 │       └── Testing_Log.md
@@ -54,7 +54,6 @@ OWASP-Top10-Assessment/
 ├── reports/
 │   └── Final_Assessment_Report.md
 │
-├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
@@ -74,6 +73,7 @@ The project covers testing activities involving:
 - CAPTCHA Configuration Testing
 
 Testing results and supporting evidence are maintained separately.
+The additional PDF contains a supplementary copy of the collected DVWA testing screenshots.
 
 ## Documentation
 
